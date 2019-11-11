@@ -42,15 +42,15 @@ public class Main2Activity extends AppCompatActivity {
     public void openMain() {
         //get values in edittext
         EditText fname = (EditText) findViewById(R.id.userFname);
-        string mfname = fname.getText().toString();
+        //string mfname = fname.getText().toString();
         EditText lname = (EditText) findViewById(R.id.userLname);
-        string mlname = lname.getText().toString();
+        //string mlname = lname.getText().toString();
         EditText cwid = (EditText) findViewById(R.id.userCWID);
-        string mcwid = cwid.getText().toString();
+        //string mcwid = cwid.getText().toString();
         EditText classid = (EditText) findViewById(R.id.userCID);
-        string mclassid = classid.getText().toString();
+        //string mclassid = classid.getText().toString();
         EditText grade = (EditText) findViewById(R.id.userGrade);
-        string mgrade = grade.getText().toString();
+        //string mgrade = grade.getText().toString();
 
 // Create Another Person
         //Person person = new Person(mfname, mlname, mcwid);
